@@ -47,4 +47,9 @@ npm start
 
 Frontend server will run on <http://localhost:4200>
 
+```bash
+ docker pull mongo
+ docker run -d --name todoapp -p 27017:27017 mongo 
+ ```
+
 
